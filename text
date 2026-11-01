@@ -1,0 +1,10 @@
+cred_support_agent/
+│
+├── dataset.py              # Task 1, 6: Seeded dataset generator & lookup utility
+├── knowledge_base.py       # Task 2: 12 mandatory policy documents
+├── rag_core.py             # Task 3, 4, 5, 16: Chunking, Vector DB, Grounded RAG, Caching
+├── agent_crew.py           # Task 7, 8, 9, 10: MockLLM, CrewAI Crew, Memory, Guardrails
+├── review_stage.py         # Task 14: AutoGen RoundRobin Group Chat verification
+├── evaluation.py           # Task 13: 15-Query Evaluation Matrix Suite
+├── main.py                 # Task 11, 12, 15: FastAPI, WebSockets, Logging, Budgets
+└── README.md               # Complete capstone documentation with engineering justifications
